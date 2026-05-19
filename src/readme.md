@@ -1,11 +1,11 @@
 # 🌱 FarmTech Solutions - Fase 3: Colheita de Dados e Insights
 
 **Equipe de Desenvolvimento:**
-Milton Akira Fukuhara - rm569837 
-Samyr de Souza Pereira - rm573294
-ANTONIO FILIPE DE SOUZA BRANCO - rm573837 
-Albert Oliveira Ribeiro - rm571521
-Vinicius Seiti Adati - rm568948 
+- Milton Akira Fukuhara - RM569837 
+- Samyr de Souza Pereira - RM573294
+- Antonio Filipe de Souza Branco - RM573837 
+- Albert Oliveira Ribeiro - RM571521
+- Vinicius Seiti Adati - RM568948
 
 
 ## 📋 Sobre o Projeto
@@ -15,7 +15,7 @@ A FarmTech Solutions é uma simulação de startup voltada para o agronegócio. 
 * `/src`: Contém os códigos-fonte do projeto.
   * `sketch.ino`: Código C++ de monitoramento via ESP32 (Fase 2).
   * `app.py`: Código Python da Dashboard interativa (Streamlit).
-  * `dados_farmtech_sensor (1).csv`: Base de dados gerada pelos sensores.
+  * `dados_farmtech_sensor.csv`: Base de dados gerada pelos sensores.
 * `/assets`: Contém as evidências visuais (prints) do banco de dados e da dashboard.
 
 ---
@@ -30,7 +30,7 @@ Os dados simulados de umidade, pH e acionamento da bomba d'água foram importado
 3. Execução da consulta `SELECT * FROM sensores;` para validar a integridade das linhas e colunas.
 
 **Evidência do Banco de Dados:**
-![Consulta no Oracle SQL Developer](assets/print_oracle.png)
+![Consulta no Oracle SQL Developer](assets/Oracle-banco.png)
 
 ---
 
@@ -44,7 +44,7 @@ A aplicação lê o histórico de monitoramento e exibe:
 * Sistema de alertas automatizado para sugestão de irrigação baseado nos níveis críticos da cultura de soja.
 
 **Evidência da Dashboard:**
-![Dashboard Streamlit](assets/print_dashboard.png)
+![Dashboard Streamlit](assets/ir_alem.png)
 
 Para executar a dashboard localmente:
 ```bash
