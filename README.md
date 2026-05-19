@@ -6,67 +6,51 @@
 
 <br>
 
-# Nome do projeto
+# FarmTech Solutions - Colheita de Dados e Insights (Fase 3)
 
-## Nome do grupo
+## Grupo 84
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Milton Akira Fukuhara</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Samyr de Souza Pereira</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Antonio Filipe de Souza Branco</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">Albert Oliveira Ribeiro</a> 
+- <a href="https://www.linkedin.com/in/vinicius-adati/">Vinicius Seiti Adati</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Sabrina Otoni</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
-
+- <a href="https://www.linkedin.com/company/inova-fusca">André Godoi Chiovato</a>
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+Na terceira fase de desenvolvimento da Startup **FarmTech Solutions**, evoluímos da coleta física de dados (IoT) para o armazenamento estruturado e análise visual. O objetivo desta etapa foi garantir que o histórico de monitoramento da cultura de Soja (umidade, pH, NPK e status da bomba) gerado pelo ESP32 não fosse perdido, estabelecendo uma fundação sólida de dados para a tomada de decisões no agronegócio.
 
+Para a **Entrega Obrigatória**, realizamos a carga e modelagem dos dados dos sensores (`dados_farmtech_sensor (1).csv`) em um Banco de Dados Relacional da Oracle, executando as consultas SQL necessárias no Oracle SQL Developer para validação da integridade das informações.
+
+**Programa Ir Além (Opcional 1 - Dashboard em Python):** Adicionalmente, desenvolvemos uma aplicação web interativa utilizando a biblioteca Streamlit. A dashboard lê a base de dados em tempo real e exibe as métricas de solo e irrigação. Para garantir uma interface técnica, limpa e de alta performance, o gráfico temporal de umidade foi configurado para ocultar os marcadores de dados por padrão, exibindo os detalhes pontuais apenas na interação (hover) do usuário. O sistema também inclui alertas lógicos que sugerem ações de irrigação baseadas no nível crítico de umidade.
+
+**Demonstração em Vídeo:** [Insira o Link do seu Vídeo Não Listado do YouTube Aqui]
 
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+- <b>.github</b>: Arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- <b>assets</b>: Arquivos de mídia e evidências visuais, como os prints da consulta no Oracle SQL Developer (`print_oracle.png`) e da interface da aplicação web (`print_dashboard.png`).
+- <b>config</b>: Arquivos de configuração usados para definir parâmetros e ajustes do projeto.
+- <b>document</b>: Documentos do projeto que as atividades poderão pedir. 
+- <b>scripts</b>: Scripts auxiliares para tarefas específicas do projeto.
+- <b>src</b>: Todo o código-fonte criado para o desenvolvimento do projeto. Nesta fase, contém o script da dashboard (`app.py`), a base de dados (`dados_farmtech_sensor (1).csv`) e o código C++ de legado da Fase 2 (`sketch.ino`).
+- <b>README.md</b>: Arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Para visualizar a Dashboard analítica em Python (Streamlit) na sua máquina local, siga os passos:
 
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
-## 📋 Licença
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
-
+1. Certifique-se de ter o Python instalado em sua máquina.
+2. Clone este repositório do GitHub.
+3. Abra o terminal na raiz do projeto e instale as bibliotecas necessárias executando:
+   ```bash
+   pip install streamlit pandas plotly
