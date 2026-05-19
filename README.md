@@ -31,7 +31,7 @@ Para a **Entrega Obrigatória**, realizamos a carga e modelagem dos dados dos se
 
 **Programa Ir Além (Opcional 1 - Dashboard em Python):** Adicionalmente, desenvolvemos uma aplicação web interativa utilizando a biblioteca Streamlit. A dashboard lê a base de dados em tempo real e exibe as métricas de solo e irrigação. Para garantir uma interface técnica, limpa e de alta performance, o gráfico temporal de umidade foi configurado para ocultar os marcadores de dados por padrão, exibindo os detalhes pontuais apenas na interação (hover) do usuário. O sistema também inclui alertas lógicos que sugerem ações de irrigação baseadas no nível crítico de umidade.
 
-**Demonstração em Vídeo:** [Insira o Link do seu Vídeo Não Listado do YouTube Aqui]
+**Demonstração em Vídeo:** [https://youtu.be/6BEE5Pek3zw]
 
 ## 📁 Estrutura de pastas
 
