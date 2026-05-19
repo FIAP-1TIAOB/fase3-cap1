@@ -7,7 +7,7 @@ st.title("🌱 Dashboard FarmTech - Monitoramento Inteligente")
 
 try:
     # sep=None e engine='python' forçam o Pandas a descobrir se o CSV usa vírgula ou ponto e vírgula
-    df = pd.read_csv("dados_farmtech_sensor (1).csv", sep=None, engine='python')
+    df = pd.read_csv("dados_farmtech_sensor.csv", sep=None, engine='python')
     
     # Limpeza de segurança: remove espaços em branco invisíveis e força tudo para MAIÚSCULO
     df.columns = df.columns.str.strip().str.upper()
