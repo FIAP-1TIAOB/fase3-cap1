@@ -26,7 +26,7 @@ Os dados simulados de umidade, pH e acionamento da bomba d'água foram importado
 
 **Passos realizados:**
 1. Conexão estabelecida com o host `oracle.fiap.com.br`.
-2. Importação do arquivo `.csv` através da ferramenta de importação de dados.
+2. Importação do arquivo `src/dados_farmtech_sensor.csv` através da ferramenta de importação de dados.
 3. Execução da consulta `SELECT * FROM sensores;` para validar a integridade das linhas e colunas.
 
 **Evidência do Banco de Dados:**
