@@ -29,9 +29,6 @@ Os dados simulados de umidade, pH e acionamento da bomba d'água foram importado
 2. Importação do arquivo `src/dados_farmtech_sensor.csv` através da ferramenta de importação de dados.
 3. Execução da consulta `SELECT * FROM sensores;` para validar a integridade das linhas e colunas.
 
-**Evidência do Banco de Dados:**
-![Consulta no Oracle SQL Developer](assets/Oracle-banco.png)
-
 ---
 
 ## 🚀 Programa Ir Além: Dashboard em Python
@@ -43,8 +40,6 @@ A aplicação lê o histórico de monitoramento e exibe:
 * Gráfico de evolução temporal contínuo (com os marcadores de dados ocultos por padrão, priorizando a fluidez e limpeza visual).
 * Sistema de alertas automatizado para sugestão de irrigação baseado nos níveis críticos da cultura de soja.
 
-**Evidência da Dashboard:**
-![Dashboard Streamlit](assets/ir_alem.png)
 
 Para executar a dashboard localmente:
 ```bash
