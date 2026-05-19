@@ -1,9 +1,12 @@
 # 🌱 FarmTech Solutions - Fase 3: Colheita de Dados e Insights
 
 **Equipe de Desenvolvimento:**
-* Vinicius Seiti Adati
-* Samyr
-* Albert
+Milton Akira Fukuhara - rm569837 
+Samyr de Souza Pereira - rm573294
+ANTONIO FILIPE DE SOUZA BRANCO - rm573837 
+Albert Oliveira Ribeiro - rm571521
+Vinicius Seiti Adati - rm568948 
+
 
 ## 📋 Sobre o Projeto
 A FarmTech Solutions é uma simulação de startup voltada para o agronegócio. Nesta fase do projeto, consolidamos os dados coletados pelo nosso sistema IoT (desenvolvido na Fase 2 com ESP32) para monitoramento de uma plantação de soja. O objetivo principal foi migrar essas leituras físicas para um Banco de Dados Relacional estruturado e, como passo adicional, criar uma interface visual analítica para a tomada de decisão.
